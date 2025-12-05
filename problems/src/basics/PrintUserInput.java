@@ -1,8 +1,10 @@
+//Complete the function printNumber which takes an integer input from the user and prints it on the screen.
+
 package basics;
 
 import java.util.Scanner;
 
-class Solution {
+class PrintUserInput {
     // Function to take input and display output
     public void printNumber(Scanner sc) {
 
@@ -15,10 +17,10 @@ class Solution {
 }
 
 // Driver code
-class Main {
+class PrintUserInputMain {
     public static void main(String[] args) {
-        // Creating an instance of Solution class
-        Solution sol = new Solution();
+        // Creating an instance of PrintUserInput class
+        PrintUserInput sol = new PrintUserInput();
 
         // Scanner class
         Scanner sc = new Scanner(System.in);
